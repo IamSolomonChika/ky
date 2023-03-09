@@ -1,0 +1,26 @@
+<nav class="fixed top-0 left-0 bg-white w-full shadow">
+  <div class="container m-auto flex justify-between item-center text-gray-700">
+    <h1 class="pl-8 py-4 text-xl font-bold cursor-pointer"><a href="/">
+      <span><img src=""></span>Yudee Ventures</a></h1>
+    <ul class="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
+      <a href="/"><li class="hover:bg-gray-800 hover:text-gray-100 py-4 px-6">Home</li></a>
+      <a href="/about"><About class="hover:bg-gray-800 hover:text-gray-100 py-4 px-6">About</li></a>
+      <a href="/services"><Services class="hover:bg-gray-800 hover:text-gray-100 py-4 px-6">Services</li></a>
+      <a href="/contact"><Contact class="hover:bg-gray-800 hover:text-gray-100 py-4 px-6">Contact</li></a>
+    </ul>
+    <button id="mobile_menu_button" class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200">
+        <div class="w-5 h-1 bg-gray-800 mb-1"></div>
+        <div class="w-5 h-1 bg-gray-800 mb-1"></div>
+        <div class="w-5 h-1 bg-gray-800"></div>
+    </button>
+    <div id="mobile_menu" class="absolute top-0 right-0 h-screen w-8/12 bg-white border">
+      <button id="cancel_menu" class="rounded-full hover:bg-gray-200"><p class="p-4 text-xl"><i class="fa fa-times-circle"></i></p></button>
+      <ul class="flex flex-col items-center w-full text-base">
+        <a class="hover:bg-gray-200 py-4  px-6 w-full cursor-pointer" href="/"><li><p class="m-auto text-center">Home</p></li></a>
+        <a class="hover:bg-gray-200 py-4  px-6 w-full cursor-pointer" href="/about"><li><p class="m-auto text-center">About</p></li></a>
+        <a class="hover:bg-gray-200 py-4  px-6 w-full cursor-pointer" href="/services"><li><p class="m-auto text-center">Services</p></li></a>
+        <a class="hover:bg-gray-200 py-4  px-6 w-full cursor-pointer" href="/contact"><li><p class="m-auto text-center">Contact</p></li></a>
+      </ul>
+    </div>
+  </div>
+</nav>
