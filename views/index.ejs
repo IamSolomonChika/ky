@@ -3,13 +3,12 @@
 <body>
   <div>
     <div
-      class="relative overflow-hidden bg-no-repeat bg-cover max-w-full"
+      class="fadeinbottom relative overflow-hidden bg-no-repeat bg-cover max-w-full"
       style="
         background-position: 50%;
         background-image: url('is.jpg');
-        height: 70vh;
-      "
-    >
+        height: 80vh;
+      ">
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
         style="background-color: rgba(0, 0, 0, 0.75)"
@@ -35,12 +34,12 @@
   <div class="flex flex-col md:flex-row mx-10 mt-10">
     <div class="w-full md:w-1/2 p-10">
       <!-- Left column content goes here -->
-      <div class="justify-center items-center">
+      <div class="justify-center items-center anni2">
         <h1 class="text-xl lg:text-2xl font-bold sm:text-center md:text-left mb-4">
           AIMS AND OBJECTIVES
         </h1>
       </div>
-      <p class="text-sm lg:text-xl ">
+      <p class="anni2 text-sm lg:text-xl ">
         Our goal is to become the leading indigenous provider of marine
         logistics, oil and gas, and construction services to the energy, power,
         and offshore oil and gas industries. <br/> We prioritize safety above all
@@ -52,21 +51,44 @@
     </div>
     <div class="w-full md:w-1/2 p-5">
       <!-- Right column content goes here -->
-      <div>
-        <img class="md:h-100%" src="worker.jpg" alt="Our Workers" srcset="" />
+      <div class="anni bg-cover bg-no-repeat m-5"
+      style="
+        background-position: 50%;
+        background-image: url('worker.jpg');
+        height: 60vh;
+      ">
       </div>
     </div>
   </div>
-  <div class="mx-10 p-10">
+  <div class="mx-10 p-10 anni">
     <div
       class="w-full justify-center items-center md:justify-left md:items-left mt-10">
-        <h1 class="font-bold text-xl md:text-2xl sm:text-center md:text-left my-4">CLIENTELE BASE</h1>
+        <h1 class="font-bold text-xl md:text-2xl sm:text-center md:text-left my-4">CLIENTELE BASE:</h1>
+        <p class="text-sm lg:text-xl">Our experience and track record of excellence and value creation 
+          is evident in our client list and the exemplary service we deliver to them
+          The client list below is a representation of our portfolio</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-      <div class="grid1-item bg-blue-500 p-4">Item 1</div>
-      <div class="grid1-item bg-red-500 p-4">Item 2</div>
-      <div class="grid1-item bg-green-500 p-4">Item 3</div>
-      <div class="grid1-item bg-yellow-500 p-4">Item 4</div>
+      <div class="grid1-item p-4">
+        <div class="m-auto p-6 h-56 w-56">
+          <img class="m-auto" src="Chevron.png" alt="" srcset="">
+        </div>
+      </div>
+      <div class="grid1-item p-4">
+        <div class="m-auto p-6 h-56 w-56">
+          <img class="my-10" src="Seplat.webp" alt="" srcset="">
+        </div>
+      </div>
+      <div class="grid1-item p-4">
+        <div class="m-auto p-6 h-56 w-56">
+          <img class="m-auto" src="Shell_nigeria.png" alt="" srcset="">
+        </div>
+      </div>
+      <div class="grid1-item p-4">
+        <div class="m-auto p-6 h-56 w-56">
+          <img class="my-5" src="TotalEnergies_logo.svg.png" alt="" srcset="">
+        </div>
+      </div>
     </div>
   </div>
 </body>

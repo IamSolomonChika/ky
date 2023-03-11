@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <title>Yudee Ventures</title> -->
+    <link rel="stylesheet" href="animation.css" />
     <link rel="stylesheet" href="output.css" />
     <link
       rel="stylesheet"
@@ -13,19 +14,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
   </head>
   <body>
     <div>
       <%- include ('../navbar.ejs') %>
-      <main class="min-h-screen min-w-screen bg-gray-200">
-         
-         
-         <%- body %> 
-         
-      </main>
-         <%- include ('../footer.ejs')%>
+      <main class="min-h-screen min-w-screen bg-gray-200"><%- body %></main>
+      <%- include ('../footer.ejs')%>
     </div>
 
+    <script src="scrollreveal.js"></script>
     <script src="main.js"></script>
+    <script>
+      ScrollReveal({
+        reset: false,
+        distance: "1000px",
+        duration: 2500,
+        delay: 500,
+      });
+
+      ScrollReveal().reveal(".anni", { delay: 100, origin: "right" });
+      ScrollReveal().reveal(".anni2", { delay: 0, origin: "bottom" });
+    </script>
   </body>
 </html>
