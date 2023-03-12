@@ -5,12 +5,12 @@
   animation: fadeinbottom 2s both;
 }
 
-.fadeinbottom1 {
-    -webkit-animation: fadeinbottom 4s both;
+/* .fadeinbottom1 {
+-webkit-animation: fadeinbottom 4s both;
     -moz-animation: fadeinbottom 4s both;
     -o-animation: fadeinbottom 4s both;
     animation: fadeinbottom 4s both;
-  }
+  } */
 
 @-webkit-keyframes fadeinbottom {
   0% {
@@ -53,7 +53,7 @@
   }
 }
 
-.fadeinleft {
+/* .fadeinleft {
   background-image: url("worker.jpg");
   -webkit-animation: fadeinleft 2s both;
   -moz-animation: fadeinleft 2s both;
@@ -100,4 +100,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
