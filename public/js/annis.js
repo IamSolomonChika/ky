@@ -3,7 +3,7 @@
 ScrollReveal({
     reset: false,
     distance: "100px",
-    duration: 4500,
+    duration: 2500,
   });
 
   ScrollReveal().reveal(".abb", { delay: 0, origin: "left"});

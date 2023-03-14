@@ -14,7 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <link rel="stylesheet" href="intTelInput.css">
   </head>
   <body>
     <div>
@@ -26,5 +26,9 @@
     <script src="scrollreveal.js"></script>
     <script src="main.js"></script>
     <script src="annis.js"></script>
+    <script>
+      let input = document.querySelector("#phone-number");
+      window.intlTelInput(input, {});
+    </script>
   </body>
 </html>
