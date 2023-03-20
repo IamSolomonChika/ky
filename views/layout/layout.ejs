@@ -7,28 +7,30 @@
     <!-- <title>Yudee Ventures</title> -->
     <link rel="stylesheet" href="animation.css" />
     <link rel="stylesheet" href="output.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
       integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="intTelInput.css">
+    />  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   </head>
   <body>
     <div>
       <%- include ('../navbar.ejs') %>
-      <main class="min-h-screen min-w-screen bg-gray-200"><%- body %></main>
+      <main class="min-h-screen min-w-screen bg-gray-200 dark:bg-gray-400"><%- body %></main>
       <%- include ('../footer.ejs')%>
     </div>
 
     <script src="scrollreveal.js"></script>
     <script src="main.js"></script>
     <script src="annis.js"></script>
-    <script>
-      let input = document.querySelector("#phone-number");
-      window.intlTelInput(input, {});
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
