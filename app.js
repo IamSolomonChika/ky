@@ -64,7 +64,7 @@ app.post('/send_mail', (req, res, next) => {
         from: email,
         to: reciever,
         subject,
-        html: `<h4>Sender's Name: ${req.body.name}</h4><h4> Sender's Email: ${email} </h4><h4> Subject: ${subject} </h4><h4>Message: ${message}</h4>`,
+        html: `<h4>Sender's Name: ${req.body.name}</h4><h4> Sender's Email: ${email} </h4><h4> Subject: ${req.body.subject} </h4><h4>Message: ${message}</h4>`,
     }
 
     transporter.sendMail(mailOptions, function(error){
